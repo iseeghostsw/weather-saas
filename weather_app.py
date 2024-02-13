@@ -104,8 +104,3 @@ def weather_controller():
     }
 
     return result
-
-
-# remove before running on server
-if __name__ == '__main__':
-    app.run(port=8000, debug=True)
