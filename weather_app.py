@@ -101,7 +101,6 @@ def weather_controller():
         "timestamp": get_utc_timestamp(),
         "location": weather_response.get('address'),
         "weather": prepare_weather_data(weather_response),
-        "weather_response": weather_response,
     }
 
     return result
